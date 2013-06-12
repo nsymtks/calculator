@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<operators-config>
+	
+	<operator id="+" className="calc.operator.impl.Add">
+		<name>加算</name>
+		<description></description>
+	</operator>
+	
+	<operator id="-" className="calc.operator.impl.Subtract">
+		<name>減算</name>
+		<description></description>
+	</operator>
+	
+	<operator id="*" className="calc.operator.impl.Multiply">
+		<name>乗算</name>
+		<description></description>
+	</operator>
+	
+	<operator id="/" className="calc.operator.impl.Divide">
+		<name>除算</name>
+		<description></description>
+	</operator>
+	
+	<operator id="negate" className="calc.operator.impl.Negate">
+		<name>正負の反転</name>
+		<description></description>
+	</operator>
+		
+</operators-config>
